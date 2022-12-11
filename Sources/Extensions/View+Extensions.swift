@@ -5,6 +5,8 @@
 //  Created by Kristof Kalai on 2022. 12. 11..
 //
 
+import SwiftUI
+
 extension View {
     public func adaptiveSheet<Content>(isPresented: Binding<Bool>,
                                        onDismiss: (() -> Void)? = nil,
