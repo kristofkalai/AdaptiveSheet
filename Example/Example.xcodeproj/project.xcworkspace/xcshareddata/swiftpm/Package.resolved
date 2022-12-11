@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "adaptivesheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/AdaptiveSheet",
+      "state" : {
+        "revision" : "ce65bb158ab1e646ff9a63a65e3d09d1641833b8",
+        "version" : "0.0.2"
+      }
+    },
+    {
+      "identity" : "sizepreferencekey",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/SizePreferenceKey.git",
+      "state" : {
+        "revision" : "b2189e367f0cabcecccfa56c66e6ff4e444bdc37",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
