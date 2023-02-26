@@ -15,6 +15,7 @@
 		58A72AAA29460AD0002E751A /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A72AA929460AD0002E751A /* ExampleUITests.swift */; };
 		58A72AAC29460AD0002E751A /* ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A72AAB29460AD0002E751A /* ExampleUITestsLaunchTests.swift */; };
 		58A72ABA29460B13002E751A /* AdaptiveSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 58A72AB929460B13002E751A /* AdaptiveSheet */; };
+		58AB50B429ABB4EC00519535 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB50B329ABB4EC00519535 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		58A72AA529460AD0002E751A /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A72AA929460AD0002E751A /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		58A72AAB29460AD0002E751A /* ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58AB50B329ABB4EC00519535 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				58A72A8E29460ACF002E751A /* ExampleApp.swift */,
 				58A72A9029460ACF002E751A /* ContentView.swift */,
+				58AB50B329ABB4EC00519535 /* DetailView.swift */,
 				58A72A9229460AD0002E751A /* Assets.xcassets */,
 				58A72A9429460AD0002E751A /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A72A9129460ACF002E751A /* ContentView.swift in Sources */,
+				58AB50B429ABB4EC00519535 /* DetailView.swift in Sources */,
 				58A72A8F29460ACF002E751A /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,22 +13,29 @@ struct ContentView: View {
     @State private var showBigSheet = false
 
     var body: some View {
-        VStack(spacing: 16) {
-            Button("Show small sheet") {
-                showSmallSheet.toggle()
-            }
-            .adaptiveSheet(isPresented: $showSmallSheet) {
-                Rectangle()
-                    .fill(.blue)
-                    .frame(height: 100)
-            }
-            Button("Show big sheet") {
-                showBigSheet.toggle()
-            }
-            .adaptiveSheet(isPresented: $showBigSheet) {
-                Rectangle()
-                    .fill(.blue)
-                    .frame(height: 1500)
+        NavigationView {
+            VStack(spacing: 16) {
+                Button("Show small sheet") {
+                    showSmallSheet.toggle()
+                }
+                .adaptiveSheet(isPresented: $showSmallSheet) {
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(height: 100)
+                }
+
+                Button("Show big sheet") {
+                    showBigSheet.toggle()
+                }
+                .adaptiveSheet(isPresented: $showBigSheet) {
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(height: 1500)
+                }
+
+                NavigationLink(destination: DetailView()) {
+                    Text("Next")
+                }
             }
         }
     }
