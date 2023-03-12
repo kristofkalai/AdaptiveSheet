@@ -1,9 +1,17 @@
 # AdaptiveSheet
 A Sheet that has adaptive size based on its content! 📃
 
-### How to use
+## Setup
 
-The sheet's size is adjusted according to its content:
+Add the following to `Package.swift`:
+
+```swift
+.package(url: "https://github.com/stateman92/AdaptiveSheet", exact: .init(0, 0, 2))
+```
+
+[Or add the package in Xcode.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
+
+## Usage
 
 ```swift
 VStack(spacing: 16) {
@@ -29,7 +37,6 @@ VStack(spacing: 16) {
 
 For details see the Example app.
 
-### Example
+## Example
 
 <p style="text-align:center;"><img src="https://github.com/stateman92/AdaptiveSheet/blob/main/Resources/screenrecording.gif?raw=true" width="50%" alt="Example"></p>
-
