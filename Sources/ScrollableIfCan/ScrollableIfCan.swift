@@ -1,6 +1,6 @@
 //
 //  ScrollableIfCan.swift
-//  
+//
 //
 //  Created by Kristof Kalai on 2022. 12. 11..
 //
@@ -12,7 +12,7 @@ public struct ScrollableIfCan<Content: View> {
     private let showsIndicators: Bool
     private let content: () -> Content
 
-    public init(in axes: Axis.Set = [.horizontal, .vertical],
+    public init(in axes: Axis.Set = .vertical,
                 showsIndicators: Bool = true,
                 @ViewBuilder content: @escaping () -> Content) {
         self.axes = axes
